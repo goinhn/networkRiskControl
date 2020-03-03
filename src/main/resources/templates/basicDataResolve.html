@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Data Resolve Page</title>
+    <script src="../static/vendor/jquery/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<h1>Index Page</h1>
+<form id="form-traffic-save">
+    <div class="form-group">
+        <label for="srcip">Srcip:</label>
+        <input type="text" id="srcip" placeholder="请输入ip源地址">
+        <label for="srcip-condition">Srcip-Condition:</label>
+        <input type="text" id="srcip-condition" placeholder="请输入ip源地址的条件">
+    </div>
+    <div class="form-group">
+        <label for="srcport">Srcport:</label>
+        <input type="text" id="srcport" placeholder="请输入ip源地址">
+        <label for="srcport-condition">Srcport-Condition:</label>
+        <input type="text" id="srcport-condition" placeholder="请输入ip源地址的条件">
+    </div>
+    <div class="form-group">
+        <label for="dstip">Dstip:</label>
+        <input type="text" id="dstip" placeholder="请输入ip目的地址">
+        <label for="dstip-condition">Dstip-Condition:</label>
+        <input type="text" id="dstip-condition" placeholder="请输入ip目的地址的条件">
+    </div>
+    <div class="form-group">
+        <label for="dstport">Dstport:</label>
+        <input type="text" id="dstport" placeholder="请输入ip源地址">
+        <label for="dstport-condition">Dstport-Condition:</label>
+        <input type="text" id="dstport-condition" placeholder="请输入ip源地址的条件">
+    </div>
+    <div class="form-group">
+        <label for="spkts">Spkts:</label>
+        <input type="text" id="spkts" placeholder="请输入spkts">
+        <label for="spkts-condition">Dstport-Condition:</label>
+        <input type="text" id="spkts-condition" placeholder="请输入spkts的条件">
+    </div>
+    <div class="form-group">
+        <label for="dpkts">Dpkts:</label>
+        <input type="text" id="dpkts" placeholder="请输入dpkts">
+        <label for="dpkts-condition">Dstport-Condition:</label>
+        <input type="text" id="dpkts-condition" placeholder="请输入dpkts的条件">
+    </div>
+</form>
+<div id="checkbox-fields">
+    <label>srcip
+        <input type="checkbox" id="srcip-field" value="srcip"><br/>
+    </label>
+    <label>srcport
+        <input type="checkbox" id="srcport-field" value="srcport"><br/>
+    </label>
+    <label>dstip
+        <input type="checkbox" id="dstip-field" value="dstip"><br/>
+    </label>
+    <label>dstport
+        <input type="checkbox" id="dstport-field" value="dstport"><br/>
+    </label>
+    <label>spkts
+        <input type="checkbox" id="spkts-field" value="spkts"><br/>
+    </label>
+    <label>dpkts
+        <input type="checkbox" id="dpkts-field" value="dpkts"><br/>
+    </label>
+    <label>stime
+        <input type="checkbox" id="stime-field" value="stime"><br/>
+    </label>
+</div>
+<div class="form-group">
+    <input type="button" id="form-tfc-submit" value="Save Traffic"/>
+</div>
+
+
+<input type="button" id="button-show-all" value="Show All"/><br/>
+<input type="button" id="button-show-by-conditions" value="Show By Conditions"/>
+
+<div id="show-tfc-id">
+    <input type="text" id="input-tfc-id" placeholder="待查询流量的的id">
+    <input type="button" id="button-show-tfc" value="Show Traffic By Id"/>
+</div>
+
+<div id="show-tfc-time">
+    <input type="text" id="input-tfc-time" placeholder="待查询流量的的时间限制">
+    <input type="text" id="input-tfc-time-restriction" placeholder="待查询流量的的时间限制字段">
+</div>
+<div id="show-tfc-control">
+    <form id="form-time-save">
+        <div class="form-group">
+            <label for="srcip-control">Srcip:</label>
+            <input type="text" id="srcip-control" placeholder="请输入ip源地址">
+            <label for="srcip-condition-control">Srcip-Condition:</label>
+            <input type="text" id="srcip-condition-control" placeholder="请输入ip源地址的条件">
+        </div>
+        <div class="form-group">
+            <label for="srcport-control">Srcport:</label>
+            <input type="text" id="srcport-control" placeholder="请输入ip源地址">
+            <label for="srcport-condition-control">Srcport-Condition:</label>
+            <input type="text" id="srcport-condition-control" placeholder="请输入ip源地址的条件">
+        </div>
+        <div class="form-group">
+            <label for="dstip-control">Dstip:</label>
+            <input type="text" id="dstip-control" placeholder="请输入ip目的地址">
+            <label for="dstip-condition-control">Dstip-Condition:</label>
+            <input type="text" id="dstip-condition-control" placeholder="请输入ip目的地址的条件">
+        </div>
+        <div class="form-group">
+            <label for="dstport-control">Dstport:</label>
+            <input type="text" id="dstport-control" placeholder="请输入ip源地址">
+            <label for="dstport-condition-control">Dstport-Condition:</label>
+            <input type="text" id="dstport-condition-control" placeholder="请输入ip源地址的条件">
+        </div>
+        <div class="form-group">
+            <label for="spkts">Spkts:</label>
+            <input type="text" id="spkts-control" placeholder="请输入spkts">
+            <label for="spkts-condition-control">Dstport-Condition:</label>
+            <input type="text" id="spkts-condition-control" placeholder="请输入spkts的条件">
+        </div>
+        <div class="form-group">
+            <label for="dpkts">Dpkts:</label>
+            <input type="text" id="dpkts-control" placeholder="请输入dpkts">
+            <label for="dpkts-condition-control">Dstport-Condition:</label>
+            <input type="text" id="dpkts-condition-control" placeholder="请输入dpkts的条件">
+        </div>
+    </form>
+</div>
+
+<script>
+    var httpUrl = "http://localhost:8080";
+    //    发送get请求
+    function testRestfulGet(reqRoute) {
+        $.ajax({
+            type: "GET",
+            url: httpUrl + reqRoute,
+            dataType: "json",
+            contentType: "application/x-www-form-urlencoded",
+            success: function (result) {
+                console.log(result);
+                console.log("Success!");
+                $("#show-tfc-id").append('<div id="text-show-tfc">' + JSON.stringify(result) + '</div>');
+            },
+            error: function (data) {
+                console.log(data);
+                console.log("Error!");
+
+            }
+        })
+    }
+    //发送post请求
+    function testRestfulPost(reqRoute, tfcInputJson){
+        $.ajax({
+            type: "POST",
+            url: httpUrl + reqRoute,
+            dataType:"json",
+            data: tfcInputJson,
+            contentType:"application/json;charset=utf-8",
+            success: function (result) {
+                alert("Success!");
+                console.log(result);
+                $("#form-traffic-save").append('<div id="text-show-tfc">' + result["Msg"] + '</div>');
+
+            },
+            error:function (result) {
+                alert("Error!");
+                console.log(result);
+                console.log('错误')
+            }
+        })
+    }
+
+    $("#button-show-tfc").click(function () {
+        var tfcId = $("#input-tfc-id").val();
+        var reqRoute = "/demo/find/" + tfcId;
+        testRestfulGet(reqRoute);
+    });
+
+    $("#form-tfc-submit").click(function () {
+        var reqRoute = "/demo/saveNewTraffic";
+        var tfcSrcIp = $("#srcip").val();
+        var tfcSrcPort = $("#srcport").val();
+        var tfcDstIp = $("#dstip").val();
+        var tfcDstPort = $("#dstport").val();
+        var tfcInputJson = JSON.stringify({
+            "srcip": tfcSrcIp,
+            "srcport": tfcSrcPort,
+            "dstip": tfcDstIp,
+            "dstport": tfcDstPort
+        });
+        testRestfulPost(reqRoute, tfcInputJson);
+    });
+    $("#button-show-all").click(function () {
+        var reqRoute = "/demo/showAll";
+        testRestfulGet(reqRoute);
+    });
+    $("#button-show-by-conditions").click(function () {
+        var reqRoute = "/basicDataResolve/queryTraffic";
+        var tfcSrcIp = $("#srcip").val();
+        var tfcSrcPort = $("#srcport").val();
+        var tfcDstIp = $("#dstip").val();
+        var tfcDstPort = $("#dstport").val();
+        var tfcspkts = $("#spkts").val();
+        var tfcdpkts = $("#dpkts").val();
+        var tfcSrcIpCondition = $("#srcip-condition").val();
+        var tfcSrcPortCondition = $("#srcport-condition").val();
+        var tfcDstIpCondition = $("#dstip-condition").val();
+        var tfcDstPortCondition = $("#dstport-condition").val();
+        var tfcspktsCondition = $("#spkts-condition").val();
+        var tfcdpktsCondition = $("#dpkts-condition").val();
+        var fields = "";
+
+        var tfcTimePeriod = $("#input-tfc-time").val();
+        var tfcTimeRestriction = $("#input-tfc-time-restriction").val();
+
+        var tfcSrcIpControl = $("#srcip-control").val();
+        var tfcSrcPortControl = $("#srcport-control").val();
+        var tfcDstIpControl = $("#dstip-control").val();
+        var tfcDstPortControl = $("#dstport-control").val();
+        var tfcspktsControl = $("#spkts-control").val();
+        var tfcdpktsControl = $("#dpkts-control").val();
+        var tfcSrcIpConditionControl = $("#srcip-condition-control").val();
+        var tfcSrcPortConditionControl = $("#srcport-condition-control").val();
+        var tfcDstIpConditionControl = $("#dstip-condition-control").val();
+        var tfcDstPortConditionControl = $("#dstport-condition-control").val();
+        var tfcspktsConditionControl = $("#spkts-condition-control").val();
+        var tfcdpktsConditionControl = $("#dpkts-condition-control").val();
+
+        $("#checkbox-fields").find('input:checkbox').each(function() {
+            if ($(this).prop('checked') === true) {
+                if (fields === "") {
+                    fields += $(this).val();
+                } else {
+                    fields = fields + "," + $(this).val();
+                }
+            }
+        });
+
+        if (fields === "") {
+            fields = "*";
+        }
+
+        var indexInfo = {
+            "srcip": [tfcSrcIp, tfcSrcIpCondition],
+            "srcport": [tfcSrcPort, tfcSrcPortCondition],
+            "dstip": [tfcDstIp, tfcDstIpCondition],
+            "dstport": [tfcDstPort, tfcDstPortCondition],
+            "spkts": [tfcspkts, tfcspktsCondition],
+            "dpkts": [tfcdpkts, tfcdpktsCondition],
+            "tfcFields": [fields, "traffic"]
+        };
+        var timeInfo = {
+            "stime": [tfcTimePeriod, tfcTimeRestriction]
+        };
+        var controlInfo = {
+            "srcip": [tfcSrcIpControl, tfcSrcIpConditionControl],
+            "srcport": [tfcSrcPortControl, tfcSrcPortConditionControl],
+            "dstip": [tfcDstIpControl, tfcDstIpConditionControl],
+            "dstport": [tfcDstPortControl, tfcDstPortConditionControl],
+            "spkts": [tfcspktsControl, tfcspktsConditionControl],
+            "dpkts": [tfcdpktsControl, tfcdpktsConditionControl]
+        };
+        var indexRestriction = {};
+        for (var tfcIndexKey in indexInfo) {
+            var tfcIndexValue = indexInfo[tfcIndexKey];
+            if ((tfcIndexValue[0] !== "")
+                && (tfcIndexValue[0] !== null)
+                && (tfcIndexValue[1] !== "")
+                && (tfcIndexValue[1] !== null)
+            ) {
+                indexRestriction[tfcIndexKey] =  tfcIndexValue;
+            }
+        }
+
+        var timeRestriction = {};
+        for (var tfcTimeKey in timeInfo) {
+            var tfcTimeValue = timeInfo[tfcTimeKey];
+            if ((tfcTimeValue[0] !== "")
+                && (tfcTimeValue[0] !== null)
+                && (tfcTimeValue[1] !== "")
+                && (tfcTimeValue[1] !== null)
+            ) {
+                timeRestriction[tfcTimeKey] =  tfcTimeValue;
+            }
+        }
+
+        var controlRestriction = {};
+        for (var tfcControlKey in controlInfo) {
+            var tfcControlValue = controlInfo[tfcControlKey];
+            if ((tfcControlValue[0] !== "")
+                && (tfcControlValue[0] !== null)
+                && (tfcControlValue[1] !== "")
+                && (tfcControlValue[1] !== null)
+            ) {
+                controlRestriction[tfcControlKey] =  tfcControlValue;
+            }
+        }
+
+        indexRestriction["srcip-1"] = ["59.166.0.1", "<>"];
+        var totalRestriction = {
+            "indexRestriction": indexRestriction,
+            "timeRestriction": timeRestriction,
+            "controlRestriction": controlRestriction
+        };
+        var tfcInputJson = JSON.stringify(totalRestriction);
+        console.log(tfcInputJson);
+        testRestfulPost(reqRoute, tfcInputJson);
+    });
+
+    //发送delete请求
+    function testRestfulDelete(){
+        var datas = {id:"123456"};
+        $.ajax({
+            type: "DELETE",
+            url: httpUrl + "/testRest",
+            dataType:"json",
+            data:JSON.stringify(datas),
+            contentType:"application/json;charset=utf-8",
+            success: function (result) {
+                console.log(result);
+            },
+            error:function () {
+                console.log('错误')
+            }
+        })
+    }
+    //发送put请求
+    function testRestfulPut(){
+        var datas = {id:"123456"};
+        $.ajax({
+            type: "PUT",
+            url: httpUrl + "/testRest",
+            dataType:"json",
+            data:JSON.stringify(datas),
+            contentType:"application/json;charset=utf-8",
+            success: function (result) {
+                console.log(result);
+            },
+            error:function () {
+                console.log('错误')
+            }
+        })
+    }
+
+</script>
+</body>
+</html>

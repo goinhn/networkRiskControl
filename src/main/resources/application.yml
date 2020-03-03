@@ -1,0 +1,54 @@
+server:
+  port: 8889
+  tomcat:
+    uri-encoding: utf-8
+  servlet:
+    context-path: /risk
+
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 1MB
+      max-request-size: 10MB
+  resources:
+    static-locations: classpath:/static/
+  mvc:
+    static-path-pattern: /static/**
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/riskcontrol?serverTimezone=GMT%2B8&useUnicode=true&tinyInt1isBit=false&characterEncoding=UTF-8
+    username: root
+    password: fwz
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: MySQl
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    open-in-view: false
+  thymeleaf:
+    cache: false
+    check-template: true
+    check-template-location: true
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    mode: HTML
+  redis:
+    host: 127.0.0.1
+    port: 6379
+
+
+logging:
+  path: ./logs/
+  pattern:
+    console: '%d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n'
+    file: '%d{yyyy/MM/dd-HH:mm} [%thread] %-5level %logger- %msg%n'
+  level:
+    root: warn
+    com.goinhn.networkriskcontrol: debug

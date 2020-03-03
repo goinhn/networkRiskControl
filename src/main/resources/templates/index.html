@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:fragment="static">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Network Risk Control</title>
+
+    <link rel="stylesheet" type="text/css"
+          href="../static/vendor/fontawesome-free/css/all.min.css"
+          th:href="@{/static/vendor/fontawesome-free/css/all.min.css}">
+
+    <link rel="stylesheet" type="text/css"
+          href="../static/css/sb-admin-2.min.css"
+          th:href="@{/static/css/sb-admin-2.min.css}">
+
+    <link rel="stylesheet" type="text/css"
+          href="../static/vendor/bootstrap-select/bootstrap-select.min.css"
+          th:href="@{/static/vendor/bootstrap-select/bootstrap-select.min.css}">
+    <style>
+        .dropdown .dropdown-menu .dropdown-header {
+            color: black;
+            font-size: 1rem;
+        }
+    </style>
+
+</head>
+
+<body id="page-top">
+
+<!-- Page Wrapper -->
+<div id="wrapper">
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+        <!-- Main Content -->
+        <div id="content">
+
+            <!-- Topbar -->
+            <!--<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                &lt;!&ndash; Topbar Navbar &ndash;&gt;
+                <ul class="navbar-nav ml-auto">
+                &lt;!&ndash; Nav Item - User Information &ndash;&gt;
+                <li class="nav-item dropdown no-arrow">
+                    <a class="nav-item" href="#" id="userDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
+                        <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+                    </a>
+                </li>
+                </ul>
+            </nav>-->
+            <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                <!-- Brand/logo -->
+                <a class="navbar-brand" href="">Network Risk Control</a>
+
+            </nav>
+            <!-- End of Topbar -->
+
+            <!-- Begin Page Content -->
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <!--<div class="d-sm-flex align-items-center justify-content-between mb-4">
+                    <h1 class="h3 mb-0 text-gray-800">总览</h1>
+                </div>-->
+
+                <!-- Content Row -->
+                <div class="row">
+
+                    <!-- Earnings (Monthly) Card Example -->
+                    <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="card border-left-primary shadow h-100 py-2">
+                            <div class="card-body">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col mr-2">
+                                        <div class="text-xl font-weight-bold text-primary text-uppercase mb-1">PCM
+                                        </div>
+                                        <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Earnings (Monthly) Card Example -->
+                    <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="card border-left-success shadow h-100 py-2">
+                            <div class="card-body">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col mr-2">
+                                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">PIM&MCM
+                                        </div>
+                                        <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Earnings (Monthly) Card Example -->
+                    <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="card border-left-info shadow h-100 py-2">
+                            <div class="card-body">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col mr-2">
+                                        <div class="text-xs font-weight-bold text-info text-uppercase mb-1">DCM&DIM
+                                        </div>
+                                        <div class="row no-gutters align-items-center">
+                                            <div class="col-auto">
+                                                <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="progress progress-sm mr-2">
+                                                    <div class="progress-bar bg-info" role="progressbar"
+                                                         style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pending Requests Card Example -->
+                    <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="card border-left-warning shadow h-100 py-2">
+                            <div class="card-body">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col mr-2">
+                                        <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">最优控制机制
+                                        </div>
+                                        <div id="bestcm" class="h5 mb-0 font-weight-bold text-gray-800">无</div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <i class="fas fa-comments fa-2x text-gray-300"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content Row -->
+
+                <div class="row">
+
+                    <!-- 网络拓扑图 -->
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="card shadow mb-4">
+                            <!-- Card Header - Dropdown -->
+                            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                <h6 class="m-0 font-weight-bold text-primary">网络拓扑图</h6>
+                                <!--<div class="dropdown no-arrow">
+                                    <a class="dropdown-toggle" href="#" role="button"
+                                       id="dropdownMenuLink-networkTopology" data-toggle="dropdown" aria-haspopup="true"
+                                       aria-expanded="false">
+                                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right shadow animated&#45;&#45;fade-in"
+                                         aria-labelledby="dropdownMenuLink-networkTopology">
+                                        <div class="dropdown-header">Dropdown Header:</div>
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>-->
+                            </div>
+
+                            <!-- Card Body -->
+                            <div class="card-body" style="height: 24.5rem">
+                                <div class="chart-area" id="myNetworkTopology">
+                                    <!--<canvas id="myNetworkTopology"></canvas>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 风险演化图 -->
+                    <div class="col-xl-7 col-lg-6">
+                        <div class="card shadow mb-4">
+                            <!-- Card Header - Dropdown -->
+                            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                <h6 class="m-0 font-weight-bold text-primary">风险演化图</h6>
+                                <!--<div class="dropdown no-arrow">
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-riskChart"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right shadow animated&#45;&#45;fade-in"
+                                         aria-labelledby="dropdownMenuLink-riskChart">
+                                        <div class="dropdown-header">Dropdown Header:</div>
+                                        <a class="dropdown-item" href="#" id="traffic-period">范围</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>-->
+                            </div>
+                            <!-- Card Body -->
+                            <div class="card-body">
+
+                                <div class="row">
+                                    <div>
+                                        <label>演化时间设定：</label>
+                                    </div>
+                                    <div style="margin-left: 0;">
+                                        <select class="selectpicker" id="input-time-range-hour"
+                                                data-style="btn-sm btn-secondary"
+                                                title="小时"
+                                                data-selected-text-format="count">
+                                            <option value="1">第1小时</option>
+                                            <option value="2">第2小时</option>
+                                            <option value="3">第3小时</option>
+                                            <option value="4">第4小时</option>
+                                            <option value="5">第5小时</option>
+                                        </select>
+                                    </div>
+                                    <div style="margin-left: 0;">
+                                        <select class="selectpicker" id="input-time-range-minute"
+                                                data-style="btn-sm btn-secondary" data-live-search="true"
+                                                title="分钟"
+                                                data-selected-text-format="count">
+                                        </select>
+                                    </div>
+                                    <div style="margin-left: 0;">
+                                        <div class="input-group input-group-sm">
+                                            <label for="input-time-range-minute" style="margin-bottom: 0;">&nbsp开始(秒):&nbsp</label>
+                                            <input type="number" class="form-control" id="input-start-time"
+                                                   placeholder="开始" min="0" max="60">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left: 0;">
+                                        <div class="input-group input-group-sm">
+                                            <label for="input-time-range-minute">&nbsp结束(秒):&nbsp</label>
+                                            <input type="number" class="form-control" id="input-end-time"
+                                                   placeholder="结束" min="0" max="60">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left: 0;">
+                                        <a class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
+                                           id="btn-start-risk-calculate" style="color: white;"><i
+                                                class="fas fa-download fa-sm text-white-50"></i> 开始演化</a>
+                                    </div>
+                                </div>
+                                <div class="chart-area" id="myRiskChart">
+                                    <!--<canvas id="myRiskChart"></canvas>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Content Row -->
+
+                <div class="row">
+
+                    <!-- Area Chart -->
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="card shadow mb-4">
+                            <!-- Card Header - Dropdown -->
+                            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                <h6 class="m-0 font-weight-bold text-primary">评估效果图</h6>
+                                <div class="dropdown no-arrow">
+                                    <!--<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-areaChart"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                    </a>
+
+                                    <div class="dropdown-menu dropdown-menu-right shadow animated&#45;&#45;fade-in"
+                                         aria-labelledby="dropdownMenuLink-areaChart">
+                                        <div class="dropdown-header">Dropdown Header:</div>
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>-->
+                                </div>
+                            </div>
+                            <!-- Card Body -->
+                            <div class="card-body">
+                                <div class="row">
+                                    <div>
+                                        <label>演化时间设定：</label>
+                                    </div>
+                                    <div style="margin-left: 0;">
+                                        <select class="selectpicker" id="input-time-range-hour-countermeasure"
+                                                data-style="btn-sm btn-secondary"
+                                                title="小时"
+                                                data-selected-text-format="count">
+                                            <option value="1">第1小时</option>
+                                            <option value="2">第2小时</option>
+                                            <option value="3">第3小时</option>
+                                            <option value="4">第4小时</option>
+                                            <option value="5">第5小时</option>
+                                        </select>
+                                    </div>
+                                    <div style="margin-left: 0;">
+                                        <select class="selectpicker" id="input-time-range-minute-countermeasure"
+                                                data-style="btn-sm btn-secondary" data-live-search="true"
+                                                title="分钟"
+                                                data-selected-text-format="count">
+                                        </select>
+                                    </div>
+                                    <div style="margin-left: 0;">
+                                        <div class="input-group input-group-sm">
+                                            <label for="input-time-range-minute-countermeasure"
+                                                   style="margin-bottom: 0;">&nbsp开始(秒):&nbsp</label>
+                                            <input type="number" class="form-control"
+                                                   id="input-start-time-countermeasure"
+                                                   placeholder="开始" min="0" max="60">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left: 0;">
+                                        <div class="input-group input-group-sm">
+                                            <label for="input-time-range-minute-countermeasure"
+                                                   style="margin-bottom: 0;">&nbsp结束(秒):&nbsp</label>
+                                            <input type="number" class="form-control" id="input-end-time-countermeasure"
+                                                   placeholder="结束" min="0" max="60">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left: 1rem;">
+                                        <a class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
+                                           id="btn-start-risk-countermeasure-calculate" style="color: white;"><i
+                                                class="fas fa-download fa-sm text-white-50"></i> 加入控制机制的演化</a>
+                                    </div>
+                                    <div style="margin-left: 1rem;">
+                                        <select id="multiselect-countermeasures" class="selectpicker"
+                                                data-style="btn-sm btn-primary" data-live-search="true" multiple
+                                                title="选择想要查看的控制机制"
+                                                data-selected-text-format="count">
+                                        </select>
+                                    </div>
+
+                                    <div style="margin-left: 1rem;">
+                                        <a class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm disabled"
+                                           id="btn-best-risk-countermeasure" style="color: white;"><i
+                                                class="fas fa-download fa-sm text-white-50"></i> 最优控制机制</a>
+                                    </div>
+                                </div>
+                                <div class="chart-area" id="myRiskCountermeasureChart">
+                                    <!--<canvas id="myAreaChart"></canvas>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- End of Main Content -->
+
+        <!-- Footer -->
+        <footer class="sticky-footer bg-white">
+            <div class="container my-auto">
+                <div class="copyright text-center my-auto">
+                    <span>Copyright &copy; IIECAS</span>
+                </div>
+            </div>
+        </footer>
+        <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+</div>
+<!-- End of Page Wrapper -->
+
+<!-- Scroll to Top Button-->
+<a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+</a>
+
+<!-- Logout Modal-->
+<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                <a class="btn btn-primary" href="login.html">Logout</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript-->
+<script src="../static/vendor/jquery/jquery-3.3.1.min.js"
+        th:src="@{/static/vendor/jquery/jquery-3.3.1.min.js}"></script>
+
+<script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        th:src="@{/static/vendor/bootstrap/js/bootstrap.bundle.min.js}"></script>
+
+<!-- Core plugin JavaScript-->
+<script src="../static/vendor/jquery-easing/jquery.easing.min.js"
+        th:src="@{/static/vendor/jquery-easing/jquery.easing.min.js}"></script>
+
+<!-- Custom scripts for all pages-->
+<script src="../static/js/sb-admin-2.min.js"
+        th:src="@{/static/js/sb-admin-2.min.js}"></script>
+
+<!-- Page level plugins -->
+<script src="../static/vendor/echarts/echarts.min.js"
+        th:src="@{/static/vendor/echarts/echarts.min.js}"></script>
+
+<script src="../static/vendor/bootstrap-select/bootstrap-select.min.js"
+        th:src="@{/static/vendor/bootstrap-select/bootstrap-select.min.js}"></script>
+
+<script src="../static/vendor/bootstrap-select/defaults-zh_CN.js"
+        th:src="@{/static/vendor/bootstrap-select/defaults-zh_CN.js}"></script>
+
+<!-- Page level custom scripts -->
+<script src="../static/js/myScript.js"
+        th:src="@{/static/js/myScript.js}"></script>
+
+<script src="../static/js/demo/chart-riskChart-demo.js"
+        th:src="@{/static/js/demo/chart-riskChart-demo.js}"></script>
+
+<script src="../static/js/demo/chart-riskCountermeasureChart-demo.js"
+        th:src="@{/static/js/demo/chart-riskCountermeasureChart-demo.js}"></script>
+
+<script src="../static/js/demo/chart-networkTopology-demo.js"
+        th:src="@{/static/js/demo/chart-networkTopology-demo.js}"></script>
+
+</body>
+
+</html>
