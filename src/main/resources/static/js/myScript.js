@@ -48,7 +48,7 @@ $(function () {
     //Map<String, Map<String, List<Map<String, String[]>>>>
     $.ajax({
         type: "GET",
-        url: httpUrl + '/riskCountermeasure/queryCountermeasures',
+        url: httpUrl + '/effect/queryCountermeasures',
         dataType: "json",
         success: function (result) {
             initCountermeasureData(result).then(
@@ -331,7 +331,7 @@ var generateCmCheckboxes = function (countermeasureNames) {
 $("#btn-start-risk-calculate").click(function () {
     // inputStartTime.value;
     let timeInfoMessage = startRiskCalculate();
-    let reqRoute = '/risk/riskEvolution';
+    let reqRoute = '/evolution/riskEvolution';
     if (timeInfoMessage !== null) {
         riskRestfulPost(reqRoute, timeInfoMessage);
     }
@@ -342,7 +342,7 @@ $("#btn-start-risk-countermeasure-calculate").click(function () {
     // inputStartTime.value;
 
     let timeInfoMessage = startRiskCalculateCountermeasure();
-    let reqRoute = '/riskCountermeasure/riskEvolution';
+    let reqRoute = '/effect/riskEvolution';
     if (timeInfoMessage !== null) {
         riskCountermeasureRestfulPost(reqRoute, timeInfoMessage);
     }
@@ -350,7 +350,7 @@ $("#btn-start-risk-countermeasure-calculate").click(function () {
 
 });
 $("#btn-best-risk-countermeasure").click(function () {
-    let reqRoute = '/riskCountermeasure/bestCountermeasure';
+    let reqRoute = '/effect/bestCountermeasure';
     let data = {};
     for (let key in tfcInfo) {
         let info = tfcInfo[key];

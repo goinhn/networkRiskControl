@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 
 @Configuration
-public class MySpringMVCConfig extends WebMvcConfigurationSupport {
+public class SpringMVCConfig extends WebMvcConfigurationSupport {
 
     /**
      * 通过@Bean注解，将我们定义的拦截器注册到Spring容器
