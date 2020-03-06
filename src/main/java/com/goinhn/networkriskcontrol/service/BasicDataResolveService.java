@@ -16,5 +16,5 @@ public interface BasicDataResolveService {
 
     List<Metric> resolveMetricByType(Map<String, String[]> map, String Type);
 
-    List<Traffic> findTrafficByTime(Map<String, String[]> timeMap);
+    List<Traffic> findTrafficByTime(String timeMap);
 }

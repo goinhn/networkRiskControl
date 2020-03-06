@@ -14,7 +14,7 @@ public class Metric implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private int id;                 //编号
+    private Integer id;                 //编号
 
     @Column(name = "name")
     private String name;            //指标的名称

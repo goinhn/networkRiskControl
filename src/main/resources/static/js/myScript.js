@@ -6,7 +6,7 @@ let multiselectCountermeasures = $("#multiselect-countermeasures");
 let inputTimeRangeMinute = $("#input-time-range-minute");
 let inputTimeRangeMinuteCountermeasure = $("#input-time-range-minute-countermeasure");
 
-let httpUrl = "http://localhost:8080";
+let httpUrl = "http://localhost:8889/risk";
 let startRiskTime = 0;
 let tfcInfo = null;
 let cmNameToIndex = {};
@@ -68,13 +68,12 @@ $(function () {
 });
 
 //发送post请求
-let riskRestfulPost = function (reqRoute, tfcInputJson) {
+let riskRestfulPost = function (reqRoute) {
     $.ajax({
-        type: "POST",
+        type: "GET",
         url: httpUrl + reqRoute,
-        dataType: "json",
-        data: tfcInputJson,
-        contentType: "application/json;charset=utf-8",
+        // dataType: "json",
+        // contentType: "application/json;charset=utf-8",
         success: function (result) {
             // alert("Success!");
             // console.log(result);
@@ -97,7 +96,7 @@ let riskRestfulPost = function (reqRoute, tfcInputJson) {
 //发送post请求
 let riskCountermeasureRestfulPost = function (reqRoute, tfcInputJson) {
     $.ajax({
-        type: "POST",
+        type: "GET",
         url: httpUrl + reqRoute,
         dataType: "json",
         data: tfcInputJson,
@@ -126,7 +125,7 @@ let riskCountermeasureRestfulPost = function (reqRoute, tfcInputJson) {
 //发送post请求
 let bestCountermeasureRestfulPost = function (reqRoute, tfcInputJson) {//获得最优的控制机制
     $.ajax({
-        type: "POST",
+        type: "GET",
         url: httpUrl + reqRoute,
         dataType: "json",
         data: tfcInputJson,
@@ -146,10 +145,6 @@ let bestCountermeasureRestfulPost = function (reqRoute, tfcInputJson) {//获得�
 
 
 var startRiskCalculate = function () {
-    /*var timeInfoMessage = JSON.stringify({
-        "stime": [(1424231119 + parseInt(inputStartTime.value)).toString() + '-' + (1424231119 + parseInt(inputEndTime.value)), "between"],
-        "ltime": [(1424231119 + parseInt(inputStartTime.value)).toString() + '-' + (1424231119 + parseInt(inputEndTime.value)), "between"],
-    });*/
     if (inputStartTime.value === '') {
         alert('请输入演化开始时间');
         return null;
@@ -164,9 +159,8 @@ var startRiskCalculate = function () {
         alert('演化结束时间不应该小于开始时间');
         return null;
     }
-    var timeInfoMessage = JSON.stringify({
-        "stime": [(1424231119 + startHourTime + startMinuteTime + startRiskTime).toString() + '-' + (1424231119 + startHourTime + startMinuteTime + parseInt(inputEndTime.value)), "between"],
-    });
+    let timeInfoMessage = (1424231119 + startHourTime + startMinuteTime + startRiskTime).toString() + '-' + (1424231119 + startHourTime + startMinuteTime + parseInt(inputEndTime.value));
+
     console.log(timeInfoMessage);
     return timeInfoMessage;
 };
@@ -331,9 +325,9 @@ var generateCmCheckboxes = function (countermeasureNames) {
 $("#btn-start-risk-calculate").click(function () {
     // inputStartTime.value;
     let timeInfoMessage = startRiskCalculate();
-    let reqRoute = '/evolution/riskEvolution';
+    let reqRoute = '/evolution/riskEvolution/' + timeInfoMessage;
     if (timeInfoMessage !== null) {
-        riskRestfulPost(reqRoute, timeInfoMessage);
+        riskRestfulPost(reqRoute);
     }
 
 });

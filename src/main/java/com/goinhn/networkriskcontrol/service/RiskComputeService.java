@@ -4,7 +4,7 @@ import com.goinhn.networkriskcontrol.entity.*;
 
 import java.util.List;
 
-public interface RiskComputerService {
+public interface RiskComputeService {
 
     List<Double> getRiskRun(List<Metric> metrics, List<Run> runs);
 
@@ -21,4 +21,10 @@ public interface RiskComputerService {
     List<Double> getRiskPim(List<Metric> metricsPim, List<PIM> pims);
 
     List<Double> getRiskDem(List<Metric> metricsDem, List<DEM> dems);
+
+    List<Double> getRiskTraffic(List<Metric> metrics, List<Traffic> trafficList);
+
+    double calculateRisk(List<Double> traffics, List<Double> runs, List<Double> vuls,
+                  List<Double> dcms, List<Double> dims, List<Double> mcms,
+                  List<Double> pcms, List<Double> pims, List<Double> dems);
 }

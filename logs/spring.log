@@ -1,279 +1,473 @@
-2020/03/04-12:48 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Starting NetworkriskcontrolApplication on DESKTOP-8S8SM78 with PID 4544 (C:\Users\goinhn\Desktop\networkriskcontrol\target\classes started by goinhn in C:\Users\goinhn\Desktop\networkriskcontrol)
-2020/03/04-12:48 [restartedMain] DEBUG com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2020/03/04-12:48 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- No active profile set, falling back to default profiles: default
-2020/03/04-12:48 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Started NetworkriskcontrolApplication in 10.382 seconds (JVM running for 12.205)
-2020/03/04-12:48 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-8] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/
-2020/03/04-12:48 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:48 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:49 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:49 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:49 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:49 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:49 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:49 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:49 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:49 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:49 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:52 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Starting NetworkriskcontrolApplication on DESKTOP-8S8SM78 with PID 7680 (C:\Users\goinhn\Desktop\networkriskcontrol\target\classes started by goinhn in C:\Users\goinhn\Desktop\networkriskcontrol)
-2020/03/04-12:52 [restartedMain] DEBUG com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2020/03/04-12:52 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- No active profile set, falling back to default profiles: default
-2020/03/04-12:52 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Started NetworkriskcontrolApplication in 8.561 seconds (JVM running for 10.285)
-2020/03/04-12:53 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-5] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/
-2020/03/04-12:53 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-12:53 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Starting NetworkriskcontrolApplication on DESKTOP-8S8SM78 with PID 7176 (C:\Users\goinhn\Desktop\networkriskcontrol\target\classes started by goinhn in C:\Users\goinhn\Desktop\networkriskcontrol)
-2020/03/04-15:09 [restartedMain] DEBUG com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2020/03/04-15:09 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- No active profile set, falling back to default profiles: default
-2020/03/04-15:09 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- Unable to start LiveReload server
-2020/03/04-15:09 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Started NetworkriskcontrolApplication in 6.88 seconds (JVM running for 8.353)
-2020/03/04-15:09 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-1] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/
-2020/03/04-15:09 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:09 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-5] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/router.png
-2020/03/04-15:10 [http-nio-8889-exec-8] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/user.png
-2020/03/04-15:10 [http-nio-8889-exec-1] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/server.png
-2020/03/04-15:10 [http-nio-8889-exec-4] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/firewall.png
-2020/03/04-15:10 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-10] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/firewall.png
-2020/03/04-15:10 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-5] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/router.png
-2020/03/04-15:10 [http-nio-8889-exec-1] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/user.png
-2020/03/04-15:10 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-4] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/server.png
-2020/03/04-15:10 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-15:10 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-16:58 [main] INFO  com.goinhn.networkriskcontrol.repository.MetricRepositoryTest- Starting MetricRepositoryTest on DESKTOP-8S8SM78 with PID 12852 (started by goinhn in C:\Users\goinhn\Desktop\networkriskcontrol)
-2020/03/04-16:58 [main] DEBUG com.goinhn.networkriskcontrol.repository.MetricRepositoryTest- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2020/03/04-16:58 [main] INFO  com.goinhn.networkriskcontrol.repository.MetricRepositoryTest- No active profile set, falling back to default profiles: default
-2020/03/04-16:58 [main] INFO  com.goinhn.networkriskcontrol.repository.MetricRepositoryTest- Started MetricRepositoryTest in 12.262 seconds (JVM running for 13.608)
-2020/03/04-18:15 [main] INFO  com.goinhn.networkriskcontrol.repository.MetricRepositoryTest- Starting MetricRepositoryTest on DESKTOP-8S8SM78 with PID 3448 (started by goinhn in C:\Users\goinhn\Desktop\networkriskcontrol)
-2020/03/04-18:15 [main] DEBUG com.goinhn.networkriskcontrol.repository.MetricRepositoryTest- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2020/03/04-18:15 [main] INFO  com.goinhn.networkriskcontrol.repository.MetricRepositoryTest- No active profile set, falling back to default profiles: default
-2020/03/04-18:15 [main] INFO  com.goinhn.networkriskcontrol.repository.MetricRepositoryTest- Started MetricRepositoryTest in 14.603 seconds (JVM running for 16.642)
-2020/03/04-18:16 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Starting NetworkriskcontrolApplication on DESKTOP-8S8SM78 with PID 13408 (C:\Users\goinhn\Desktop\networkriskcontrol\target\classes started by goinhn in C:\Users\goinhn\Desktop\networkriskcontrol)
-2020/03/04-18:16 [restartedMain] DEBUG com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2020/03/04-18:16 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- No active profile set, falling back to default profiles: default
-2020/03/04-18:16 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Started NetworkriskcontrolApplication in 6.428 seconds (JVM running for 7.774)
-2020/03/04-18:17 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-18:17 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-18:17 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-18:19 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Starting NetworkriskcontrolApplication on DESKTOP-8S8SM78 with PID 9724 (C:\Users\goinhn\Desktop\networkriskcontrol\target\classes started by goinhn in C:\Users\goinhn\Desktop\networkriskcontrol)
-2020/03/04-18:19 [restartedMain] DEBUG com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2020/03/04-18:19 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- No active profile set, falling back to default profiles: default
-2020/03/04-18:19 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Started NetworkriskcontrolApplication in 7.38 seconds (JVM running for 8.778)
-2020/03/04-18:19 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-18:19 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-18:19 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
-2020/03/04-19:50 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m55s437ms841µs700ns).
-2020/03/04-19:55 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Starting NetworkriskcontrolApplication on DESKTOP-8S8SM78 with PID 15212 (C:\Users\goinhn\Desktop\networkriskcontrol\target\classes started by goinhn in C:\Users\goinhn\Desktop\networkriskcontrol)
-2020/03/04-19:55 [restartedMain] DEBUG com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2020/03/04-19:55 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- No active profile set, falling back to default profiles: default
-2020/03/04-19:55 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Started NetworkriskcontrolApplication in 8.378 seconds (JVM running for 10.387)
-2020/03/04-19:55 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
-2020/03/04-19:55 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
-2020/03/04-19:55 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:38 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Starting NetworkriskcontrolApplication on DESKTOP-8S8SM78 with PID 10516 (C:\Users\goinhn\Desktop\networkriskcontrol\target\classes started by goinhn in C:\Users\goinhn\Desktop\networkriskcontrol)
+2020/03/06-16:38 [restartedMain] DEBUG com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2020/03/06-16:38 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- No active profile set, falling back to default profiles: default
+2020/03/06-16:38 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Started NetworkriskcontrolApplication in 8.688 seconds (JVM running for 11.09)
+2020/03/06-16:39 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-5] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/firewall.png
+2020/03/06-16:39 [http-nio-8889-exec-3] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/user.png
+2020/03/06-16:39 [http-nio-8889-exec-2] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/router.png
+2020/03/06-16:39 [http-nio-8889-exec-7] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/server.png
+2020/03/06-16:39 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-9] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/effect/queryCountermeasures
+2020/03/06-16:39 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:39 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:40 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:40 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:40 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:40 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:40 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:40 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:40 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:40 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-16:40 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-16:40 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-16:40 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:50 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Starting NetworkriskcontrolApplication on DESKTOP-8S8SM78 with PID 11100 (C:\Users\goinhn\Desktop\networkriskcontrol\target\classes started by goinhn in C:\Users\goinhn\Desktop\networkriskcontrol)
+2020/03/06-17:50 [restartedMain] DEBUG com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2020/03/06-17:50 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- No active profile set, falling back to default profiles: default
+2020/03/06-17:51 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Started NetworkriskcontrolApplication in 6.759 seconds (JVM running for 8.348)
+2020/03/06-17:51 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-1] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/
+2020/03/06-17:51 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-2] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/firewall.png
+2020/03/06-17:51 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-6] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/router.png
+2020/03/06-17:51 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-10] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/user.png
+2020/03/06-17:51 [http-nio-8889-exec-3] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/server.png
+2020/03/06-17:51 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/risk].[dispatcherServlet]- Servlet.service() for servlet [dispatcherServlet] in context with path [/risk] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.goinhn.networkriskcontrol.entity.Countermeasure.enumBlock(Countermeasure.java:62)
+	at com.goinhn.networkriskcontrol.entity.Countermeasure.enumByType(Countermeasure.java:32)
+	at com.goinhn.networkriskcontrol.service.impl.CounterMeasureResolveServiceImpl.enumCountermeasures(CounterMeasureResolveServiceImpl.java:58)
+	at com.goinhn.networkriskcontrol.controller.EffectController.queryCountermeasures(EffectController.java:291)
+	at com.goinhn.networkriskcontrol.controller.EffectController.queryCountermeasureNames(EffectController.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020/03/06-17:51 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:51 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-2] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/router.png
+2020/03/06-17:52 [http-nio-8889-exec-6] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/user.png
+2020/03/06-17:52 [http-nio-8889-exec-1] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/firewall.png
+2020/03/06-17:52 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-10] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/server.png
+2020/03/06-17:52 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-3] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/risk].[dispatcherServlet]- Servlet.service() for servlet [dispatcherServlet] in context with path [/risk] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.goinhn.networkriskcontrol.entity.Countermeasure.enumBlock(Countermeasure.java:62)
+	at com.goinhn.networkriskcontrol.entity.Countermeasure.enumByType(Countermeasure.java:32)
+	at com.goinhn.networkriskcontrol.service.impl.CounterMeasureResolveServiceImpl.enumCountermeasures(CounterMeasureResolveServiceImpl.java:58)
+	at com.goinhn.networkriskcontrol.controller.EffectController.queryCountermeasures(EffectController.java:291)
+	at com.goinhn.networkriskcontrol.controller.EffectController.queryCountermeasureNames(EffectController.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020/03/06-17:52 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-17:52 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:01 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Starting NetworkriskcontrolApplication on DESKTOP-8S8SM78 with PID 11632 (C:\Users\goinhn\Desktop\networkriskcontrol\target\classes started by goinhn in C:\Users\goinhn\Desktop\networkriskcontrol)
+2020/03/06-18:01 [restartedMain] DEBUG com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2020/03/06-18:01 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- No active profile set, falling back to default profiles: default
+2020/03/06-18:01 [restartedMain] INFO  com.goinhn.networkriskcontrol.NetworkriskcontrolApplication- Started NetworkriskcontrolApplication in 7.139 seconds (JVM running for 8.887)
+2020/03/06-18:01 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-5] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/
+2020/03/06-18:01 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-8] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/risk].[dispatcherServlet]- Servlet.service() for servlet [dispatcherServlet] in context with path [/risk] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.goinhn.networkriskcontrol.entity.Countermeasure.enumBlock(Countermeasure.java:62)
+	at com.goinhn.networkriskcontrol.entity.Countermeasure.enumByType(Countermeasure.java:32)
+	at com.goinhn.networkriskcontrol.service.impl.CounterMeasureResolveServiceImpl.enumCountermeasures(CounterMeasureResolveServiceImpl.java:58)
+	at com.goinhn.networkriskcontrol.controller.EffectController.queryCountermeasures(EffectController.java:291)
+	at com.goinhn.networkriskcontrol.controller.EffectController.queryCountermeasureNames(EffectController.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020/03/06-18:01 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:01 [http-nio-8889-exec-8] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-10] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/router.png
+2020/03/06-18:02 [http-nio-8889-exec-9] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/firewall.png
+2020/03/06-18:02 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-2] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/server.png
+2020/03/06-18:02 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-1] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/user.png
+2020/03/06-18:02 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-1] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-10] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-3] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-5] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-6] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-7] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/router.png
+2020/03/06-18:02 [http-nio-8889-exec-4] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/firewall.png
+2020/03/06-18:02 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-7] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-4] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/user.png
+2020/03/06-18:02 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-4] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-9] WARN  org.springframework.web.servlet.PageNotFound- No mapping for GET /risk/index/img/img-networkTopology/server.png
+2020/03/06-18:02 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-9] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-2] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/risk].[dispatcherServlet]- Servlet.service() for servlet [dispatcherServlet] in context with path [/risk] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.goinhn.networkriskcontrol.entity.Countermeasure.enumBlock(Countermeasure.java:62)
+	at com.goinhn.networkriskcontrol.entity.Countermeasure.enumByType(Countermeasure.java:32)
+	at com.goinhn.networkriskcontrol.service.impl.CounterMeasureResolveServiceImpl.enumCountermeasures(CounterMeasureResolveServiceImpl.java:58)
+	at com.goinhn.networkriskcontrol.controller.EffectController.queryCountermeasures(EffectController.java:291)
+	at com.goinhn.networkriskcontrol.controller.EffectController.queryCountermeasureNames(EffectController.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020/03/06-18:02 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- preHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- postHandle method is now running!
+2020/03/06-18:02 [http-nio-8889-exec-2] DEBUG com.goinhn.networkriskcontrol.interceptor.BeginInterceptor- afterCompletion method is now running!

@@ -59,14 +59,8 @@ public class BasicDataResolveServiceImpl implements BasicDataResolveService {
                 while ((line = bufferedReader.readLine()) != null) {
                     metric.add(line.split("-"));
                 }
-                for (int i = 0; i < metric.size(); i++) {
-                    if (i == 0) {
-                        map.put("run", metric.get(i));
-                    }
-                    if (i == 1) {
-                        map.put("traffic", metric.get(i));
-                    }
-                }
+                map.put("run", metric.get(0));
+                map.put("traffic", metric.get(1));
             }
         } catch (FileNotFoundException e) {
             System.out.println("文件读取错误!");
@@ -109,10 +103,8 @@ public class BasicDataResolveServiceImpl implements BasicDataResolveService {
                     String[] textMetric = line.split(";");
                     metric.addAll(Arrays.asList(textMetric));
                 }
-
                 map.put(fileType, metric.toArray(new String[metric.size()]));
             }
-
         } catch (FileNotFoundException e) {
             System.out.println("文件读取错误!");
         } catch (Exception e) {
@@ -134,10 +126,10 @@ public class BasicDataResolveServiceImpl implements BasicDataResolveService {
      * 根据指标文件中的指标来获取数据库中指标对应的规则
      * 计算机本省的性能指标
      *
-     * @param map
+     * @param map 实体中的指标
      * @return {
-     * "run": [Metric],
-     * "traffic: [Metric]
+     * "run": [Metric, Metric, Metric],
+     * "traffic: [Metric, Metric, Metric]
      * }
      */
     @Transactional
@@ -190,8 +182,8 @@ public class BasicDataResolveServiceImpl implements BasicDataResolveService {
      */
     @Transactional
     @Override
-    public List<Traffic> findTrafficByTime(Map<String, String[]> timeMap) {
-        String timeBetween = timeMap.get("stime")[0];
+    public List<Traffic> findTrafficByTime(String timeMap) {
+        String timeBetween = timeMap;
 
         List<Traffic> trafficList = new ArrayList<>();
         try {

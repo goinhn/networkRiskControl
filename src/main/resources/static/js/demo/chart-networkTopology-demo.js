@@ -193,7 +193,7 @@ for (var j = 0; j < nodes.length; j++) {
         value: [x, y],
         symbolSize: 50,
         // alarm: nodes[j].alarm,
-        symbol: 'image://./img/img-networkTopology/' + nodes[j].img,//此处的图片位置是以根目录作为起始位置来算的
+        symbol: 'image:../../img/img-networkTopology/' + nodes[j].img,//此处的图片位置是以根目录作为起始位置来算的
         itemStyle: {
             normal: {
                 color: '#12b5d0',
